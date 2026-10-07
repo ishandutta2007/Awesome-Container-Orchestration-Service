@@ -1,41 +1,21 @@
-# Awesome-Container-Orchestration-Service
-
 # Awesome-Container-Orchestration-Service ⚓ ☁️
 
-
-
 <p align="center">
-
   <img src="assets/banner.svg" alt="Awesome Container Orchestration Service Banner" width="100%">
-
 </p>
-
-
 
 <p align="center">
-
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
-
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-
   <a href="https://github.com/ishandutta2007/Awesome-Container-Orchestration-Service"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Container-Orchestration-Service?style=social" alt="GitHub_Stars"/></a>
-
   <a href="https://github.com/ishandutta2007/Awesome-Container-Orchestration-Service/fork"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Container-Orchestration-Service?style=social" alt="GitHub Forks"/></a>
-
   <a href="https://github.com/ishandutta2007/Awesome-Container-Orchestration-Service/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Container-Orchestration-Service?color=blue" alt="License"/></a>
-
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
-
 </p>
-
-
 
 ---
 
-
-
 ## 🌟 Top Container Orchestration Service Ecosystem
-
 
 
 **Curated List of Commercial Orchestration Platforms & Open-Source Container Schedulers**  
@@ -43,9 +23,7 @@
 *Focused on Kubernetes-Managed Services, Container Scheduling, Service Mesh Integration, Auto-Scaling, Multi-Cluster Management & Self-Hosted Orchestrators*
 
 
-
 **Last updated: October 2026** 📅
-
 
 
 ---
@@ -61,11 +39,8 @@ Welcome to the ultimate curated directory of **container orchestration platforms
 **Key Market Context:**
 
 - **Kubernetes has won the orchestration war** — **92% of organizations** use Kubernetes in production, with managed services (EKS, GKE, AKS) dominating.
-
 - **Amazon ECS** remains the **simplest AWS-native orchestrator**, with **no control plane charges** — you pay only for EC2 or Fargate resources .
-
 - **HashiCorp Nomad** is the **simplest non-Kubernetes orchestrator**, supporting **containers, binaries, Java, and VMs** in a single cluster .
-
 - **K3s** is the **lightest Kubernetes distribution**, with **30MB binary** and **<512MB RAM** requirements.
 
 
@@ -77,17 +52,11 @@ Welcome to the ultimate curated directory of **container orchestration platforms
 ## 📑 Table of Contents
 
 - [🏢 SaaS & Commercial Platforms](#-saas--commercial-platforms)
-
 - [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
-
 - [🛠️ How to Contribute](#%EF%B8%8F-how-to-contribute)
-
 - [📊 Star History](#-star-history)
-
 - [🤝 Support & Sponsorship](#-support--sponsorship)
-
 - [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
-
 
 
 ---
@@ -103,27 +72,16 @@ The container orchestration market is dominated by **managed Kubernetes services
 
 
 | SaaS / Commercial Platform | Company / Owner | Valuation / Market Cap | Standard Edition Starting Price | Free Tier / Free Trial Limits | Description |
-
 | :--- | :--- | :--- | :--- | :--- | :--- |
-
 | **[Amazon Elastic Container Service (ECS)](https://aws.amazon.com/ecs/)** ☁️ | Amazon | ~$2.0 Trillion | **No control plane charges**; pay only for EC2 or Fargate  | **Free tier: 750 hours of t2.micro/t3.micro for 12 months**  | **AWS-native container orchestration** — **Simpler than Kubernetes** with **deep AWS integration** . **Two launch types**: **EC2** (you manage instances) and **Fargate** (serverless containers) . **Task definitions** for container configuration. **Service Connect** for service discovery. **No control plane charges** — the simplest AWS orchestration option . |
-
 | **[Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine)** 🌐 | Google (Alphabet) | ~$2.0 Trillion | **Standard: $0.10/hour per cluster**; **Autopilot: $0.10/hour + pod resources**  | **$300 free credits** for new customers | **GCP-native Kubernetes** — **The most mature managed Kubernetes** with **Autopilot** for hands-off operations . **GKE Standard**: you manage nodes . **GKE Autopilot**: Google manages nodes, you pay per pod resource . **Release channels** for version management. **Deep integration** with Cloud Run, Cloud Build, and Artifact Registry . |
-
 | **[Azure Kubernetes Service (AKS)](https://azure.microsoft.com/en-us/products/kubernetes-service/)** 🔷 | Microsoft | ~$3.90 Trillion | **Free tier: no control plane charge**; **Standard: $0.10/hour**; **Premium: $0.60/hour**  | **Free tier: no control plane charge**  | **Azure-native Kubernetes** — **Free control plane** in the Free tier . **Standard tier** for production with **99.9% uptime SLA** . **Premium tier** for **99.95% SLA, Long Term Support, and Windows node pools** . **Deep integration** with Azure AD, Monitor, and Policy . |
-
 | **[HashiCorp Nomad](https://www.nomadproject.io/)** 🏕️ | HashiCorp (IBM) | ~$5 Billion (Acquisition) | **Community: Free**; **Enterprise: custom pricing**  | **Community Edition free forever**  | **Simpler non-Kubernetes orchestrator** — **Single binary** that schedules **containers, binaries, Java, and VMs** . **Simpler than Kubernetes** — no control plane, no etcd, no CNI . **Multi-region and multi-cloud** native. **Integrated with Consul and Vault** . **The simplest production-grade orchestrator** . |
-
 | **[Red Hat OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift)** 🔴 | Red Hat | ~$50 Billion (IBM) | **Red Hat subscription required**  | **OpenShift Local (CRC) free for development**  | **Enterprise Kubernetes platform** — **Opinionated Kubernetes distribution** with **built-in CI/CD, monitoring, and service mesh** . **OpenShift Dedicated** and **Azure Red Hat OpenShift** as managed services. **The most enterprise-ready Kubernetes platform** . |
-
 | **[Rancher](https://rancher.com/)** 🐄 | SUSE | ~$2.5 Billion | **RKE2: Free**; **Rancher Prime: custom pricing**  | **RKE2 and K3s free forever**  | **Multi-cluster Kubernetes management** — **Manage any Kubernetes cluster** (EKS, GKE, AKS, on-premises) from a single pane of glass . **RKE2** (Rancher Kubernetes Engine 2) for security-focused Kubernetes . **K3s** for edge and IoT . **The most popular open-source multi-cluster management platform** . |
-
 | **[VMware Tanzu](https://tanzu.vmware.com/)** 🏢 | Broadcom (VMware) | ~$60 Billion | **Custom enterprise pricing**  | **Tanzu Community Edition free**  | **Enterprise Kubernetes platform** — **Tanzu Kubernetes Grid** for multi-cloud Kubernetes. **Tanzu Mission Control** for fleet management. **Deep integration with VMware vSphere** . |
-
 | **[Mirantis Kubernetes Engine](https://www.mirantis.com/)** 🔵 | Mirantis | Private | **Custom enterprise pricing**  | **Free trial available**  | **Enterprise Kubernetes** — **Mirantis Kubernetes Engine (MKE)** for on-premises and cloud . **k0s** for lightweight Kubernetes . **The most production-proven enterprise Kubernetes** from the former Docker Enterprise team . |
-
 | **[Cycle.io](https://cycle.io/)** 🔄 | Cycle | Private | **$75/month** (starting)  | **Free tier available**  | **Container orchestration platform** — **Simplified container hosting** without Kubernetes complexity. **Built-in load balancing, service discovery, and secrets management** . |
-
 | **[Portainer Cloud](https://www.portainer.io/)** 🐳 | Portainer | Private | **Free: 5 users, 5 nodes**; **Business: $95/month**  | **Free: 5 users, 5 nodes**  | **Container management platform** — **Web-based UI** for Docker and Kubernetes . **Multi-cluster management** . **RBAC and team management** . **The most popular open-source container console** . |
 
 
