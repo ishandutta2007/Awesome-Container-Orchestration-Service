@@ -142,61 +142,139 @@ The container orchestration market is dominated by **managed Kubernetes services
 
 - **[Kubernetes](https://github.com/kubernetes/kubernetes)** [![Stars](https://img.shields.io/github/stars/kubernetes/kubernetes?style=social&color=white)](https://github.com/kubernetes/kubernetes/stargazers)  
 
-  **Production-grade container orchestration**, Apache-2.0 licensed. **110K+ GitHub stars** — **the de facto standard for container orchestration** . **Automatic scaling, self-healing, service discovery, and load balancing** . **Declarative configuration** with YAML manifests . **The foundation for every managed Kubernetes service** — EKS, GKE, AKS, and OpenShift all run Kubernetes under the hood . **The most important open-source infrastructure project of the last decade** . ☸️
+  **Production-grade container orchestration**, Apache-2.0 licensed. **128K+ GitHub stars** — **the de facto standard for container orchestration** . **Automatic scaling, self-healing, service discovery, and load balancing** . **Declarative configuration** with YAML manifests . **The foundation for every managed Kubernetes service** — EKS, GKE, AKS, and OpenShift all run Kubernetes under the hood . **The most important open-source infrastructure project of the last decade** . ☸️
 
 
 
-- **[K3s](https://github.com/k3s-io/k3s)** [![Stars](https://img.shields.io/github/stars/k3s-io/k3s?style=social&color=white)](https://github.com/k3s-io/k3s/stargazers)  
+- **[Moby / Docker Engine](https://github.com/moby/moby)** [![Stars](https://img.shields.io/github/stars/moby/moby?style=social&color=white)](https://github.com/moby/moby/stargazers)  
 
-  **Lightweight Kubernetes**, Apache-2.0 licensed. **30K+ GitHub stars** — **the lightest certified Kubernetes distribution** . **Single binary under 100MB** — runs on **Raspberry Pi, edge devices, and IoT** . **<512MB RAM** required for the control plane . **Built for resource-constrained environments** . **The standard for edge Kubernetes** . 🍓
-
-
-
-- **[Nomad](https://github.com/hashicorp/nomad)** [![Stars](https://img.shields.io/github/stars/hashicorp/nomad?style=social&color=white)](https://github.com/hashicorp/nomad/stargazers)  
-
-  **Easy-to-use, flexible workload orchestrator**, MPL-2.0 licensed. **15K+ GitHub stars** — **the simplest non-Kubernetes orchestrator** . **Single binary** that schedules **containers, binaries, Java, and VMs** — **no control plane, no etcd, no CNI** . **Multi-region and multi-cloud** native. **Integrated with Consul and Vault** . **The simplest production-grade orchestrator** — deploy in minutes, scale to thousands of nodes . 🏕️
+  **Open-source application container engine**, Apache-2.0 licensed. **72K+ GitHub stars** — **the core framework for container technology** . Includes **Docker Swarm** for native container orchestration and cluster management . 🐳
 
 
 
-- **[RKE2](https://github.com/rancher/rke2)** [![Stars](https://img.shields.io/github/stars/rancher/rke2?style=social&color=white)](https://github.com/rancher/rke2/stargazers)  
+- **[Coolify](https://github.com/coollabsio/coolify)** [![Stars](https://img.shields.io/github/stars/coollabsio/coolify?style=social&color=white)](https://github.com/coollabsio/coolify/stargazers)  
 
-  **Rancher Kubernetes Engine 2**, Apache-2.0 licensed. **Security-focused Kubernetes distribution** — **FIPS 140-2 compliant** . **No etcd exposure** — runs etcd as a static pod . **CIS benchmark hardened** . **The most secure open-source Kubernetes distribution** . 🔐
-
-
-
-- **[K0s](https://github.com/k0sproject/k0s)** [![Stars](https://img.shields.io/github/stars/k0sproject/k0s?style=social&color=white)](https://github.com/k0sproject/k0s/stargazers)  
-
-  **Zero-friction Kubernetes**, Apache-2.0 licensed. **Single binary with zero dependencies** — no container runtime required . **The simplest Kubernetes to install** — `k0s install controller` and you're running . **From Mirantis** — the former Docker Enterprise team . **The most accessible Kubernetes distribution** . ⚡
+  **An open-source & self-hostable Heroku / Netlify alternative**, Apache-2.0 licensed. **62K+ GitHub stars** — **self-hosted PaaS and container manager** . Simple application deployment, database orchestration, and service management on any server . 💧
 
 
 
-- **[Talos Linux](https://github.com/siderolabs/talos)** [![Stars](https://img.shields.io/github/stars/siderolabs/talos?style=social&color=white)](https://github.com/siderolabs/talos/stargazers)  
+- **[Portainer](https://github.com/portainer/portainer)** [![Stars](https://img.shields.io/github/stars/portainer/portainer?style=social&color=white)](https://github.com/portainer/portainer/stargazers)  
 
-  **Kubernetes OS with immutable infrastructure**, MPL-2.0 licensed. **API-driven, immutable, and minimal** — **no SSH, no shell, no package manager** . **The most secure Kubernetes OS** . **Used by Equinix Metal and other cloud providers** . 🛡️
+  **Making Docker and Kubernetes management easy**, zlib licensed. **38K+ GitHub stars** — **lightweight management UI** for Docker, Swarm, and Kubernetes environments . 🐋
 
 
 
-- **[MicroK8s](https://github.com/canonical/microk8s)** [![Stars](https://img.shields.io/github/stars/canonical/microk8s?style=social&color=white)](https://github.com/canonical/microk8s/stargazers)  
+- **[Docker Compose](https://github.com/docker/compose)** [![Stars](https://img.shields.io/github/stars/docker/compose?style=social&color=white)](https://github.com/docker/compose/stargazers)  
 
-  **Lightweight Kubernetes for developers and edge**, Apache-2.0 licensed. **Single snap package** — **install in seconds** . **Add-ons for Istio, Knative, and Kubeflow** . **The simplest Kubernetes for local development** . 📦
+  **Define and run multi-container applications with Docker**, Apache-2.0 licensed. **38K+ GitHub stars** — **declarative multi-container orchestration** tool for local, staging, and production environments . 🐙
 
 
 
 - **[K9s](https://github.com/derailed/k9s)** [![Stars](https://img.shields.io/github/stars/derailed/k9s?style=social&color=white)](https://github.com/derailed/k9s/stargazers)  
 
-  **Kubernetes CLI to manage your clusters in style**, Apache-2.0 licensed. **25K+ GitHub stars** — **the standard Kubernetes terminal UI** . **Real-time cluster monitoring** . **Resource management, logs, and shell** . **The most popular Kubernetes CLI tool** . 🐕
+  **Kubernetes CLI to manage your clusters in style**, Apache-2.0 licensed. **34K+ GitHub stars** — **the standard Kubernetes terminal UI** . **Real-time cluster monitoring**, resource management, logs, and shell . 🐕
 
 
 
-- **[Lens](https://github.com/lensapp/lens)** [![Stars](https://img.shields.io/github/stars/lensapp/lens?style=social&color=white)](https://github.com/lensapp/lensapp/stargazers)  
+- **[K3s](https://github.com/k3s-io/k3s)** [![Stars](https://img.shields.io/github/stars/k3s-io/k3s?style=social&color=white)](https://github.com/k3s-io/k3s/stargazers)  
 
-  **The Kubernetes IDE**, MIT licensed. **22K+ GitHub stars** — **the most popular Kubernetes GUI** . **Multi-cluster management** . **Real-time metrics and logs** . **The standard Kubernetes desktop experience** . 🔭
+  **Lightweight Kubernetes**, Apache-2.0 licensed. **34K+ GitHub stars** — **the lightest certified Kubernetes distribution** . **Single binary under 100MB** — runs on **Raspberry Pi, edge devices, and IoT** . **<512MB RAM** required for the control plane . 🍓
+
+
+
+- **[Minikube](https://github.com/kubernetes/minikube)** [![Stars](https://img.shields.io/github/stars/kubernetes/minikube?style=social&color=white)](https://github.com/kubernetes/minikube/stargazers)  
+
+  **Run Kubernetes locally**, Apache-2.0 licensed. **32K+ GitHub stars** — **the standard local Kubernetes cluster orchestrator** for developers . Supports containers, VMs, and bare-metal drivers . 🚀
+
+
+
+- **[Dokku](https://github.com/dokku/dokku)** [![Stars](https://img.shields.io/github/stars/dokku/dokku?style=social&color=white)](https://github.com/dokku/dokku/stargazers)  
+
+  **Docker powered mini-Heroku**, MIT licensed. **32K+ GitHub stars** — **the smallest PaaS implementation you've ever seen** . Powered by Docker for simple single-server container deployment and management . ⛵
+
+
+
+- **[Helm](https://github.com/helm/helm)** [![Stars](https://img.shields.io/github/stars/helm/helm?style=social&color=white)](https://github.com/helm/helm/stargazers)  
+
+  **The Kubernetes Package Manager**, Apache-2.0 licensed. **30K+ GitHub stars** — **the standard package manager for Kubernetes** . Manages charts, complex app deployments, and release lifecycles . ⎈
+
+
+
+- **[Dapr](https://github.com/dapr/dapr)** [![Stars](https://img.shields.io/github/stars/dapr/dapr?style=social&color=white)](https://github.com/dapr/dapr/stargazers)  
+
+  **Distributed Application Runtime**, Apache-2.0 licensed. **26K+ GitHub stars** — **portable, event-driven runtime** for building microservices on cloud and edge with container orchestrators . 🌩️
 
 
 
 - **[Argo CD](https://github.com/argoproj/argo-cd)** [![Stars](https://img.shields.io/github/stars/argoproj/argo-cd?style=social&color=white)](https://github.com/argoproj/argo-cd/stargazers)  
 
-  **Declarative GitOps continuous delivery for Kubernetes**, Apache-2.0 licensed. **12K+ GitHub stars** — **the standard GitOps tool for Kubernetes** . **Watches Git repositories and syncs application state** . **The definitive Kubernetes deployment automation** . 🎯
+  **Declarative GitOps continuous delivery for Kubernetes**, Apache-2.0 licensed. **24K+ GitHub stars** — **the standard GitOps tool for Kubernetes** . **Watches Git repositories and syncs application state** . 🎯
+
+
+
+- **[Lens](https://github.com/lensapp/lens)** [![Stars](https://img.shields.io/github/stars/lensapp/lens?style=social&color=white)](https://github.com/lensapp/lensapp/stargazers)  
+
+  **The Kubernetes IDE**, MIT licensed. **23K+ GitHub stars** — **the most popular Kubernetes GUI** . **Multi-cluster management**, real-time metrics, and logs . 🔭
+
+
+
+- **[Nomad](https://github.com/hashicorp/nomad)** [![Stars](https://img.shields.io/github/stars/hashicorp/nomad?style=social&color=white)](https://github.com/hashicorp/nomad/stargazers)  
+
+  **Easy-to-use, flexible workload orchestrator**, MPL-2.0 licensed. **16K+ GitHub stars** — **the simplest non-Kubernetes orchestrator** . **Single binary** that schedules **containers, binaries, Java, and VMs** — **no control plane, no etcd, no CNI** . 🏕️
+
+
+
+- **[kind](https://github.com/kubernetes-sigs/kind)** [![Stars](https://img.shields.io/github/stars/kubernetes-sigs/kind?style=social&color=white)](https://github.com/kubernetes-sigs/kind/stargazers)  
+
+  **Kubernetes IN Docker**, Apache-2.0 licensed. **15K+ GitHub stars** — **run local Kubernetes clusters using Docker container nodes** . Designed primarily for testing Kubernetes itself . 📦
+
+
+
+- **[CapRover](https://github.com/caprover/caprover)** [![Stars](https://img.shields.io/github/stars/caprover/caprover?style=social&color=white)](https://github.com/caprover/caprover/stargazers)  
+
+  **Automated App Deployer & Build Server**, Apache-2.0 licensed. **15K+ GitHub stars** — **Extremely easy PaaS / container deployment engine** powered by Docker Swarm . 🚀
+
+
+
+- **[Talos Linux](https://github.com/siderolabs/talos)** [![Stars](https://img.shields.io/github/stars/siderolabs/talos?style=social&color=white)](https://github.com/siderolabs/talos/stargazers)  
+
+  **Kubernetes OS with immutable infrastructure**, MPL-2.0 licensed. **11K+ GitHub stars** — **API-driven, immutable, and minimal** OS designed exclusively for Kubernetes . 🛡️
+
+
+
+- **[MicroK8s](https://github.com/canonical/microk8s)** [![Stars](https://img.shields.io/github/stars/canonical/microk8s?style=social&color=white)](https://github.com/canonical/microk8s/stargazers)  
+
+  **Lightweight Kubernetes for developers and edge**, Apache-2.0 licensed. **9K+ GitHub stars** — **Single snap package** for instant cluster setup with built-in add-ons . 📦
+
+
+
+- **[Flyte](https://github.com/flyteorg/flyte)** [![Stars](https://img.shields.io/github/stars/flyteorg/flyte?style=social&color=white)](https://github.com/flyteorg/flyte/stargazers)  
+
+  **Scalable and reliable workflow orchestrator for ML and Data**, Apache-2.0 licensed. **7K+ GitHub stars** — **Kubernetes-native workflow orchestrator** for complex data and machine learning pipelines . ⚡
+
+
+
+- **[K0s](https://github.com/k0sproject/k0s)** [![Stars](https://img.shields.io/github/stars/k0sproject/k0s?style=social&color=white)](https://github.com/k0sproject/k0s/stargazers)  
+
+  **Zero-friction Kubernetes**, Apache-2.0 licensed. **6K+ GitHub stars** — **Single binary with zero dependencies** — no container runtime required . ⚡
+
+
+
+- **[Volcano](https://github.com/volcano-sh/volcano)** [![Stars](https://img.shields.io/github/stars/volcano-sh/volcano?style=social&color=white)](https://github.com/volcano-sh/volcano/stargazers)  
+
+  **CNCF Batch System / High-performance workload scheduler**, Apache-2.0 licensed. **5K+ GitHub stars** — **Batch and AI/ML container workload scheduler** built natively on Kubernetes . 🌋
+
+
+
+- **[OpenKruise](https://github.com/openkruise/kruise)** [![Stars](https://img.shields.io/github/stars/openkruise/kruise?style=social&color=white)](https://github.com/openkruise/kruise/stargazers)  
+
+  **Automated application management at scale on Kubernetes**, Apache-2.0 licensed. **5K+ GitHub stars** — **Advanced workload management & orchestration extension** for Kubernetes . 🚢
+
+
+
+- **[RKE2](https://github.com/rancher/rke2)** [![Stars](https://img.shields.io/github/stars/rancher/rke2?style=social&color=white)](https://github.com/rancher/rke2/stargazers)  
+
+  **Rancher Kubernetes Engine 2**, Apache-2.0 licensed. **2K+ GitHub stars** — **Security-focused Kubernetes distribution** — **FIPS 140-2 compliant** and CIS benchmark hardened . 🔐
 
 
 
@@ -279,21 +357,5 @@ If you find this container orchestration repository useful, please consider supp
 
 
 <p align="center">
-
-  <b>Made with ❤️ for DevOps engineers, platform teams, and open-source container orchestration advocates.</b>
-
-</p>
-# Awesome-Container-Orchestration-Service
-
-Awesome-Container-Orchestration-Service ⚓ ☁️<p align="center">
-  <img src="assets/banner.svg" alt="Awesome Container Orchestration Service Banner" width="100%">
-</p><p align="center">
-  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
-  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Container-Orchestration-Service"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Container-Orchestration-Service?style=social" alt="GitHub_Stars"/></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Container-Orchestration-Service/fork"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Container-Orchestration-Service?style=social" alt="GitHub Forks"/></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Container-Orchestration-Service/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Container-Orchestration-Service?color=blue" alt="License"/></a>
-  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
-</p>🌟 Top Container Orchestration Service EcosystemCurated List of Commercial Orchestration Platforms & Open-Source Container SchedulersFocused on Kubernetes-Managed Services, Container Scheduling, Service Mesh Integration, Auto-Scaling, Multi-Cluster Management & Self-Hosted OrchestratorsLast updated: October 2026 📅📌 Overview & SEO SummaryWelcome to the ultimate curated directory of container orchestration platforms, open-source container schedulers, and managed Kubernetes services. Whether you are looking for enterprise-grade commercial solutions (such as Amazon ECS, Google Kubernetes Engine, and Azure Kubernetes Service), or self-hostable open-source alternatives (like Kubernetes, Nomad, and K3s), this list covers category leaders, multi-cluster management, and privacy-respecting container orchestration.Key Market Context:Kubernetes has won the orchestration war — 92% of organizations use Kubernetes in production, with managed services (EKS, GKE, AKS) dominating.Amazon ECS remains the simplest AWS-native orchestrator, with no control plane charges — you pay only for EC2 or Fargate resources .HashiCorp Nomad is the simplest non-Kubernetes orchestrator, supporting containers, binaries, Java, and VMs in a single cluster .K3s is the lightest Kubernetes distribution, with 30MB binary and <512MB RAM requirements.📑 Table of Contents🏢 SaaS & Commercial Platforms🔓 Open-Source GitHub Projects🛠️ How to Contribute📊 Star History🤝 Support & Sponsorship⚠️ Disclaimer🏢 SaaS / Commercial PlatformsThe container orchestration market is dominated by managed Kubernetes services (EKS, GKE, AKS) that provide control plane management with consumption-based pricing, cloud-native orchestrators (ECS, Cloud Run) that offer simplified container hosting without Kubernetes complexity, and enterprise Kubernetes platforms (OpenShift, Rancher, Tanzu) that provide multi-cluster management, security, and support. Amazon EKS charges **$0.10/hour per cluster** (~$72/month) plus worker node costs . Google GKE charges $0.10/hour per cluster** for Standard, with **Autopilot at $0.10/hour plus pod resource costs . Azure AKS offers a free tier for the control plane, with Standard at $0.10/hour** and **Premium at $0.60/hour . Amazon ECS has no control plane charges — you pay only for EC2 or Fargate resources . HashiCorp Nomad uses custom enterprise pricing . Red Hat OpenShift requires a Red Hat subscription .SaaS / Commercial PlatformCompany / OwnerValuation / Market CapStandard Edition Starting PriceFree Tier / Free Trial LimitsDescriptionAmazon Elastic Container Service (ECS) ☁️Amazon~$2.0 TrillionNo control plane charges; pay only for EC2 or FargateFree tier: 750 hours of t2.micro/t3.micro for 12 monthsAWS-native container orchestration — Simpler than Kubernetes with deep AWS integration . Two launch types: EC2 (you manage instances) and Fargate (serverless containers) . Task definitions for container configuration. Service Connect for service discovery. No control plane charges — the simplest AWS orchestration option .Google Kubernetes Engine (GKE) 🌐Google (Alphabet)~$2.0 TrillionStandard: $0.10/hour per cluster**; **Autopilot: $0.10/hour + pod resources$300 free credits for new customersGCP-native Kubernetes — The most mature managed Kubernetes with Autopilot for hands-off operations . GKE Standard: you manage nodes . GKE Autopilot: Google manages nodes, you pay per pod resource . Release channels for version management. Deep integration with Cloud Run, Cloud Build, and Artifact Registry .Azure Kubernetes Service (AKS) 🔷Microsoft~$3.90 TrillionFree tier: no control plane charge; Standard: $0.10/hour**; **Premium: $0.60/hourFree tier: no control plane chargeAzure-native Kubernetes — Free control plane in the Free tier . Standard tier for production with 99.9% uptime SLA . Premium tier for 99.95% SLA, Long Term Support, and Windows node pools . Deep integration with Azure AD, Monitor, and Policy .HashiCorp Nomad 🏕️HashiCorp (IBM)~$5 Billion (Acquisition)Community: Free; Enterprise: custom pricingCommunity Edition free foreverSimpler non-Kubernetes orchestrator — Single binary that schedules containers, binaries, Java, and VMs . Simpler than Kubernetes — no control plane, no etcd, no CNI . Multi-region and multi-cloud native. Integrated with Consul and Vault . The simplest production-grade orchestrator .Red Hat OpenShift 🔴Red Hat~$50 Billion (IBM)Red Hat subscription requiredOpenShift Local (CRC) free for developmentEnterprise Kubernetes platform — Opinionated Kubernetes distribution with built-in CI/CD, monitoring, and service mesh . OpenShift Dedicated and Azure Red Hat OpenShift as managed services. The most enterprise-ready Kubernetes platform .Rancher 🐄SUSE~$2.5 BillionRKE2: Free; Rancher Prime: custom pricingRKE2 and K3s free foreverMulti-cluster Kubernetes management — Manage any Kubernetes cluster (EKS, GKE, AKS, on-premises) from a single pane of glass . RKE2 (Rancher Kubernetes Engine 2) for security-focused Kubernetes . K3s for edge and IoT . The most popular open-source multi-cluster management platform .VMware Tanzu 🏢Broadcom (VMware)~$60 BillionCustom enterprise pricingTanzu Community Edition freeEnterprise Kubernetes platform — Tanzu Kubernetes Grid for multi-cloud Kubernetes. Tanzu Mission Control for fleet management. Deep integration with VMware vSphere .Mirantis Kubernetes Engine 🔵MirantisPrivateCustom enterprise pricingFree trial availableEnterprise Kubernetes — Mirantis Kubernetes Engine (MKE) for on-premises and cloud . k0s for lightweight Kubernetes . The most production-proven enterprise Kubernetes from the former Docker Enterprise team .Cycle.io 🔄CyclePrivate$75/month (starting)Free tier availableContainer orchestration platform — Simplified container hosting without Kubernetes complexity. Built-in load balancing, service discovery, and secrets management .Portainer Cloud 🐳PortainerPrivateFree: 5 users, 5 nodes; Business: $95/monthFree: 5 users, 5 nodesContainer management platform — Web-based UI for Docker and Kubernetes . Multi-cluster management . RBAC and team management . The most popular open-source container console .🔓 Open-Source GitHub ProjectsSorted by GitHub_Stars_Count (Descending) 🌟Kubernetes https://img.shields.io/github/stars/kubernetes/kubernetes?style=social&color=whiteProduction-grade container orchestration, Apache-2.0 licensed. 110K+ GitHub stars — the de facto standard for container orchestration . Automatic scaling, self-healing, service discovery, and load balancing . Declarative configuration with YAML manifests . The foundation for every managed Kubernetes service — EKS, GKE, AKS, and OpenShift all run Kubernetes under the hood . The most important open-source infrastructure project of the last decade . ☸️K3s https://img.shields.io/github/stars/k3s-io/k3s?style=social&color=whiteLightweight Kubernetes, Apache-2.0 licensed. 30K+ GitHub stars — the lightest certified Kubernetes distribution . Single binary under 100MB — runs on Raspberry Pi, edge devices, and IoT . <512MB RAM required for the control plane . Built for resource-constrained environments . The standard for edge Kubernetes . 🍓Nomad https://img.shields.io/github/stars/hashicorp/nomad?style=social&color=whiteEasy-to-use, flexible workload orchestrator, MPL-2.0 licensed. 15K+ GitHub stars — the simplest non-Kubernetes orchestrator . Single binary that schedules containers, binaries, Java, and VMs — no control plane, no etcd, no CNI . Multi-region and multi-cloud native. Integrated with Consul and Vault . The simplest production-grade orchestrator — deploy in minutes, scale to thousands of nodes . 🏕️RKE2 https://img.shields.io/github/stars/rancher/rke2?style=social&color=whiteRancher Kubernetes Engine 2, Apache-2.0 licensed. Security-focused Kubernetes distribution — FIPS 140-2 compliant . No etcd exposure — runs etcd as a static pod . CIS benchmark hardened . The most secure open-source Kubernetes distribution . 🔐K0s https://img.shields.io/github/stars/k0sproject/k0s?style=social&color=whiteZero-friction Kubernetes, Apache-2.0 licensed. Single binary with zero dependencies — no container runtime required . The simplest Kubernetes to install — k0s install controller and you're running . From Mirantis — the former Docker Enterprise team . The most accessible Kubernetes distribution . ⚡Talos Linux https://img.shields.io/github/stars/siderolabs/talos?style=social&color=whiteKubernetes OS with immutable infrastructure, MPL-2.0 licensed. API-driven, immutable, and minimal — no SSH, no shell, no package manager . The most secure Kubernetes OS . Used by Equinix Metal and other cloud providers . 🛡️MicroK8s https://img.shields.io/github/stars/canonical/microk8s?style=social&color=whiteLightweight Kubernetes for developers and edge, Apache-2.0 licensed. Single snap package — install in seconds . Add-ons for Istio, Knative, and Kubeflow . The simplest Kubernetes for local development . 📦K9s https://img.shields.io/github/stars/derailed/k9s?style=social&color=whiteKubernetes CLI to manage your clusters in style, Apache-2.0 licensed. 25K+ GitHub stars — the standard Kubernetes terminal UI . Real-time cluster monitoring . Resource management, logs, and shell . The most popular Kubernetes CLI tool . 🐕Lens https://img.shields.io/github/stars/lensapp/lens?style=social&color=whiteThe Kubernetes IDE, MIT licensed. 22K+ GitHub stars — the most popular Kubernetes GUI . Multi-cluster management . Real-time metrics and logs . The standard Kubernetes desktop experience . 🔭Argo CD https://img.shields.io/github/stars/argoproj/argo-cd?style=social&color=whiteDeclarative GitOps continuous delivery for Kubernetes, Apache-2.0 licensed. 12K+ GitHub stars — the standard GitOps tool for Kubernetes . Watches Git repositories and syncs application state . The definitive Kubernetes deployment automation . 🎯🛠️ How to ContributeContributions are welcome! Follow these steps to submit new container orchestration platforms or open-source orchestrator software:🍴 Fork the repository.📝 Add/edit entries in README.md maintaining table/list structure and formatting.🔗 Include project title, official website/GitHub link, exact Stars_Count, license, and brief description.🚀 Submit a Pull Request with a descriptive summary of your changes.📊 Star Historyhttps://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Container-Orchestration-Service&type=date&legend=top-left🤝 Support & SponsorshipIf you find this container orchestration repository useful, please consider supporting the project:⭐ Star this repository to increase visibility!🔀 Fork and share with fellow DevOps engineers, platform teams, and open-source advocates.☕ Sponsor & Buy Me a Coffee: Support ongoing open-source curation via the GitHub Sponsor Dashboard.⚠️ DisclaimerThis is a community-curated list — not exhaustive and not an endorsement. ℹ️Kubernetes has won the orchestration war — 92% of organizations use it in production . Managed services (EKS, GKE, AKS) dominate because they abstract control plane management.Amazon ECS has no control plane charges — you pay only for EC2 or Fargate resources . **EKS charges $0.10/hour per cluster** (~$72/month) plus worker nodes . Azure AKS offers a free control plane tier .Nomad is the simplest non-Kubernetes orchestrator — single binary, no control plane, no etcd, no CNI . K3s is the lightest Kubernetes — 30MB binary, <512MB RAM for edge devices .Open-source orchestrators (Kubernetes, K3s, Nomad, RKE2) are not turnkey — they require deployment, configuration, and ongoing maintenance . Always validate performance and security with a proof-of-concept before production deployment . ⚓<p align="center">
   <b>Made with ❤️ for DevOps engineers, platform teams, and open-source container orchestration advocates.</b>
 </p>
