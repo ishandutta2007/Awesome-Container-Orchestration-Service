@@ -142,139 +142,139 @@ The container orchestration market is dominated by **managed Kubernetes services
 
 - **[Kubernetes](https://github.com/kubernetes/kubernetes)** [![Stars](https://img.shields.io/github/stars/kubernetes/kubernetes?style=social&color=white)](https://github.com/kubernetes/kubernetes/stargazers)  
 
-  **Production-grade container orchestration**, Apache-2.0 licensed. **128K+ GitHub stars** — **the de facto standard for container orchestration** . **Automatic scaling, self-healing, service discovery, and load balancing** . **Declarative configuration** with YAML manifests . **The foundation for every managed Kubernetes service** — EKS, GKE, AKS, and OpenShift all run Kubernetes under the hood . **The most important open-source infrastructure project of the last decade** . ☸️
+  **Production-grade container orchestration**, Apache-2.0 licensed. **128K+ GitHub_Stars** — **the de facto standard for container orchestration** . **Automatic scaling, self-healing, service discovery, and load balancing** . **Declarative configuration** with YAML manifests . **The foundation for every managed Kubernetes service** — EKS, GKE, AKS, and OpenShift all run Kubernetes under the hood . **The most important open-source infrastructure project of the last decade** . ☸️
 
 
 
 - **[Moby / Docker Engine](https://github.com/moby/moby)** [![Stars](https://img.shields.io/github/stars/moby/moby?style=social&color=white)](https://github.com/moby/moby/stargazers)  
 
-  **Open-source application container engine**, Apache-2.0 licensed. **72K+ GitHub stars** — **the core framework for container technology** . Includes **Docker Swarm** for native container orchestration and cluster management . 🐳
+  **Open-source application container engine**, Apache-2.0 licensed. **72K+ GitHub_Stars** — **the core framework for container technology** . Includes **Docker Swarm** for native container orchestration and cluster management . 🐳
 
 
 
 - **[Coolify](https://github.com/coollabsio/coolify)** [![Stars](https://img.shields.io/github/stars/coollabsio/coolify?style=social&color=white)](https://github.com/coollabsio/coolify/stargazers)  
 
-  **An open-source & self-hostable Heroku / Netlify alternative**, Apache-2.0 licensed. **62K+ GitHub stars** — **self-hosted PaaS and container manager** . Simple application deployment, database orchestration, and service management on any server . 💧
+  **An open-source & self-hostable Heroku / Netlify alternative**, Apache-2.0 licensed. **62K+ GitHub_Stars** — **self-hosted PaaS and container manager** . Simple application deployment, database orchestration, and service management on any server . 💧
 
 
 
 - **[Portainer](https://github.com/portainer/portainer)** [![Stars](https://img.shields.io/github/stars/portainer/portainer?style=social&color=white)](https://github.com/portainer/portainer/stargazers)  
 
-  **Making Docker and Kubernetes management easy**, zlib licensed. **38K+ GitHub stars** — **lightweight management UI** for Docker, Swarm, and Kubernetes environments . 🐋
+  **Making Docker and Kubernetes management easy**, zlib licensed. **38K+ GitHub_Stars** — **lightweight management UI** for Docker, Swarm, and Kubernetes environments . 🐋
 
 
 
 - **[Docker Compose](https://github.com/docker/compose)** [![Stars](https://img.shields.io/github/stars/docker/compose?style=social&color=white)](https://github.com/docker/compose/stargazers)  
 
-  **Define and run multi-container applications with Docker**, Apache-2.0 licensed. **38K+ GitHub stars** — **declarative multi-container orchestration** tool for local, staging, and production environments . 🐙
+  **Define and run multi-container applications with Docker**, Apache-2.0 licensed. **38K+ GitHub_Stars** — **declarative multi-container orchestration** tool for local, staging, and production environments . 🐙
 
 
 
 - **[K9s](https://github.com/derailed/k9s)** [![Stars](https://img.shields.io/github/stars/derailed/k9s?style=social&color=white)](https://github.com/derailed/k9s/stargazers)  
 
-  **Kubernetes CLI to manage your clusters in style**, Apache-2.0 licensed. **34K+ GitHub stars** — **the standard Kubernetes terminal UI** . **Real-time cluster monitoring**, resource management, logs, and shell . 🐕
+  **Kubernetes CLI to manage your clusters in style**, Apache-2.0 licensed. **34K+ GitHub_Stars** — **the standard Kubernetes terminal UI** . **Real-time cluster monitoring**, resource management, logs, and shell . 🐕
 
 
 
 - **[K3s](https://github.com/k3s-io/k3s)** [![Stars](https://img.shields.io/github/stars/k3s-io/k3s?style=social&color=white)](https://github.com/k3s-io/k3s/stargazers)  
 
-  **Lightweight Kubernetes**, Apache-2.0 licensed. **34K+ GitHub stars** — **the lightest certified Kubernetes distribution** . **Single binary under 100MB** — runs on **Raspberry Pi, edge devices, and IoT** . **<512MB RAM** required for the control plane . 🍓
+  **Lightweight Kubernetes**, Apache-2.0 licensed. **34K+ GitHub_Stars** — **the lightest certified Kubernetes distribution** . **Single binary under 100MB** — runs on **Raspberry Pi, edge devices, and IoT** . **<512MB RAM** required for the control plane . 🍓
 
 
 
 - **[Minikube](https://github.com/kubernetes/minikube)** [![Stars](https://img.shields.io/github/stars/kubernetes/minikube?style=social&color=white)](https://github.com/kubernetes/minikube/stargazers)  
 
-  **Run Kubernetes locally**, Apache-2.0 licensed. **32K+ GitHub stars** — **the standard local Kubernetes cluster orchestrator** for developers . Supports containers, VMs, and bare-metal drivers . 🚀
+  **Run Kubernetes locally**, Apache-2.0 licensed. **32K+ GitHub_Stars** — **the standard local Kubernetes cluster orchestrator** for developers . Supports containers, VMs, and bare-metal drivers . 🚀
 
 
 
 - **[Dokku](https://github.com/dokku/dokku)** [![Stars](https://img.shields.io/github/stars/dokku/dokku?style=social&color=white)](https://github.com/dokku/dokku/stargazers)  
 
-  **Docker powered mini-Heroku**, MIT licensed. **32K+ GitHub stars** — **the smallest PaaS implementation you've ever seen** . Powered by Docker for simple single-server container deployment and management . ⛵
+  **Docker powered mini-Heroku**, MIT licensed. **32K+ GitHub_Stars** — **the smallest PaaS implementation you've ever seen** . Powered by Docker for simple single-server container deployment and management . ⛵
 
 
 
 - **[Helm](https://github.com/helm/helm)** [![Stars](https://img.shields.io/github/stars/helm/helm?style=social&color=white)](https://github.com/helm/helm/stargazers)  
 
-  **The Kubernetes Package Manager**, Apache-2.0 licensed. **30K+ GitHub stars** — **the standard package manager for Kubernetes** . Manages charts, complex app deployments, and release lifecycles . ⎈
+  **The Kubernetes Package Manager**, Apache-2.0 licensed. **30K+ GitHub_Stars** — **the standard package manager for Kubernetes** . Manages charts, complex app deployments, and release lifecycles . ⎈
 
 
 
 - **[Dapr](https://github.com/dapr/dapr)** [![Stars](https://img.shields.io/github/stars/dapr/dapr?style=social&color=white)](https://github.com/dapr/dapr/stargazers)  
 
-  **Distributed Application Runtime**, Apache-2.0 licensed. **26K+ GitHub stars** — **portable, event-driven runtime** for building microservices on cloud and edge with container orchestrators . 🌩️
+  **Distributed Application Runtime**, Apache-2.0 licensed. **26K+ GitHub_Stars** — **portable, event-driven runtime** for building microservices on cloud and edge with container orchestrators . 🌩️
 
 
 
 - **[Argo CD](https://github.com/argoproj/argo-cd)** [![Stars](https://img.shields.io/github/stars/argoproj/argo-cd?style=social&color=white)](https://github.com/argoproj/argo-cd/stargazers)  
 
-  **Declarative GitOps continuous delivery for Kubernetes**, Apache-2.0 licensed. **24K+ GitHub stars** — **the standard GitOps tool for Kubernetes** . **Watches Git repositories and syncs application state** . 🎯
+  **Declarative GitOps continuous delivery for Kubernetes**, Apache-2.0 licensed. **24K+ GitHub_Stars** — **the standard GitOps tool for Kubernetes** . **Watches Git repositories and syncs application state** . 🎯
 
 
 
 - **[Lens](https://github.com/lensapp/lens)** [![Stars](https://img.shields.io/github/stars/lensapp/lens?style=social&color=white)](https://github.com/lensapp/lensapp/stargazers)  
 
-  **The Kubernetes IDE**, MIT licensed. **23K+ GitHub stars** — **the most popular Kubernetes GUI** . **Multi-cluster management**, real-time metrics, and logs . 🔭
+  **The Kubernetes IDE**, MIT licensed. **23K+ GitHub_Stars** — **the most popular Kubernetes GUI** . **Multi-cluster management**, real-time metrics, and logs . 🔭
 
 
 
 - **[Nomad](https://github.com/hashicorp/nomad)** [![Stars](https://img.shields.io/github/stars/hashicorp/nomad?style=social&color=white)](https://github.com/hashicorp/nomad/stargazers)  
 
-  **Easy-to-use, flexible workload orchestrator**, MPL-2.0 licensed. **16K+ GitHub stars** — **the simplest non-Kubernetes orchestrator** . **Single binary** that schedules **containers, binaries, Java, and VMs** — **no control plane, no etcd, no CNI** . 🏕️
+  **Easy-to-use, flexible workload orchestrator**, MPL-2.0 licensed. **16K+ GitHub_Stars** — **the simplest non-Kubernetes orchestrator** . **Single binary** that schedules **containers, binaries, Java, and VMs** — **no control plane, no etcd, no CNI** . 🏕️
 
 
 
 - **[kind](https://github.com/kubernetes-sigs/kind)** [![Stars](https://img.shields.io/github/stars/kubernetes-sigs/kind?style=social&color=white)](https://github.com/kubernetes-sigs/kind/stargazers)  
 
-  **Kubernetes IN Docker**, Apache-2.0 licensed. **15K+ GitHub stars** — **run local Kubernetes clusters using Docker container nodes** . Designed primarily for testing Kubernetes itself . 📦
+  **Kubernetes IN Docker**, Apache-2.0 licensed. **15K+ GitHub_Stars** — **run local Kubernetes clusters using Docker container nodes** . Designed primarily for testing Kubernetes itself . 📦
 
 
 
 - **[CapRover](https://github.com/caprover/caprover)** [![Stars](https://img.shields.io/github/stars/caprover/caprover?style=social&color=white)](https://github.com/caprover/caprover/stargazers)  
 
-  **Automated App Deployer & Build Server**, Apache-2.0 licensed. **15K+ GitHub stars** — **Extremely easy PaaS / container deployment engine** powered by Docker Swarm . 🚀
+  **Automated App Deployer & Build Server**, Apache-2.0 licensed. **15K+ GitHub_Stars** — **Extremely easy PaaS / container deployment engine** powered by Docker Swarm . 🚀
 
 
 
 - **[Talos Linux](https://github.com/siderolabs/talos)** [![Stars](https://img.shields.io/github/stars/siderolabs/talos?style=social&color=white)](https://github.com/siderolabs/talos/stargazers)  
 
-  **Kubernetes OS with immutable infrastructure**, MPL-2.0 licensed. **11K+ GitHub stars** — **API-driven, immutable, and minimal** OS designed exclusively for Kubernetes . 🛡️
+  **Kubernetes OS with immutable infrastructure**, MPL-2.0 licensed. **11K+ GitHub_Stars** — **API-driven, immutable, and minimal** OS designed exclusively for Kubernetes . 🛡️
 
 
 
 - **[MicroK8s](https://github.com/canonical/microk8s)** [![Stars](https://img.shields.io/github/stars/canonical/microk8s?style=social&color=white)](https://github.com/canonical/microk8s/stargazers)  
 
-  **Lightweight Kubernetes for developers and edge**, Apache-2.0 licensed. **9K+ GitHub stars** — **Single snap package** for instant cluster setup with built-in add-ons . 📦
+  **Lightweight Kubernetes for developers and edge**, Apache-2.0 licensed. **9K+ GitHub_Stars** — **Single snap package** for instant cluster setup with built-in add-ons . 📦
 
 
 
 - **[Flyte](https://github.com/flyteorg/flyte)** [![Stars](https://img.shields.io/github/stars/flyteorg/flyte?style=social&color=white)](https://github.com/flyteorg/flyte/stargazers)  
 
-  **Scalable and reliable workflow orchestrator for ML and Data**, Apache-2.0 licensed. **7K+ GitHub stars** — **Kubernetes-native workflow orchestrator** for complex data and machine learning pipelines . ⚡
+  **Scalable and reliable workflow orchestrator for ML and Data**, Apache-2.0 licensed. **7K+ GitHub_Stars** — **Kubernetes-native workflow orchestrator** for complex data and machine learning pipelines . ⚡
 
 
 
 - **[K0s](https://github.com/k0sproject/k0s)** [![Stars](https://img.shields.io/github/stars/k0sproject/k0s?style=social&color=white)](https://github.com/k0sproject/k0s/stargazers)  
 
-  **Zero-friction Kubernetes**, Apache-2.0 licensed. **6K+ GitHub stars** — **Single binary with zero dependencies** — no container runtime required . ⚡
+  **Zero-friction Kubernetes**, Apache-2.0 licensed. **6K+ GitHub_Stars** — **Single binary with zero dependencies** — no container runtime required . ⚡
 
 
 
 - **[Volcano](https://github.com/volcano-sh/volcano)** [![Stars](https://img.shields.io/github/stars/volcano-sh/volcano?style=social&color=white)](https://github.com/volcano-sh/volcano/stargazers)  
 
-  **CNCF Batch System / High-performance workload scheduler**, Apache-2.0 licensed. **5K+ GitHub stars** — **Batch and AI/ML container workload scheduler** built natively on Kubernetes . 🌋
+  **CNCF Batch System / High-performance workload scheduler**, Apache-2.0 licensed. **5K+ GitHub_Stars** — **Batch and AI/ML container workload scheduler** built natively on Kubernetes . 🌋
 
 
 
 - **[OpenKruise](https://github.com/openkruise/kruise)** [![Stars](https://img.shields.io/github/stars/openkruise/kruise?style=social&color=white)](https://github.com/openkruise/kruise/stargazers)  
 
-  **Automated application management at scale on Kubernetes**, Apache-2.0 licensed. **5K+ GitHub stars** — **Advanced workload management & orchestration extension** for Kubernetes . 🚢
+  **Automated application management at scale on Kubernetes**, Apache-2.0 licensed. **5K+ GitHub_Stars** — **Advanced workload management & orchestration extension** for Kubernetes . 🚢
 
 
 
 - **[RKE2](https://github.com/rancher/rke2)** [![Stars](https://img.shields.io/github/stars/rancher/rke2?style=social&color=white)](https://github.com/rancher/rke2/stargazers)  
 
-  **Rancher Kubernetes Engine 2**, Apache-2.0 licensed. **2K+ GitHub stars** — **Security-focused Kubernetes distribution** — **FIPS 140-2 compliant** and CIS benchmark hardened . 🔐
+  **Rancher Kubernetes Engine 2**, Apache-2.0 licensed. **2K+ GitHub_Stars** — **Security-focused Kubernetes distribution** — **FIPS 140-2 compliant** and CIS benchmark hardened . 🔐
 
 
 
